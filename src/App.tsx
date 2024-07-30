@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import './App.css';
-import { Button, ButtonGroup, Grid, GridItem, Show } from '@chakra-ui/react';
+import { Grid, GridItem, Show } from '@chakra-ui/react';
 import NavBar from './components/NavBar';
 import GameGrid from './components/GameGrid';
 
