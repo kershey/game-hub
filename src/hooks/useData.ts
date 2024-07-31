@@ -2,14 +2,6 @@ import { AxiosRequestConfig, CanceledError } from 'axios';
 import { useEffect, useState } from 'react';
 import apiClient from '../services/api-client';
 
-export interface T {
-  id: number;
-  name: string;
-  background_image: string;
-  parent_platforms: { platform: Platform }[];
-  metacritic: number;
-}
-
 interface FetchResponse<T> {
   count: number;
   results: T[];
